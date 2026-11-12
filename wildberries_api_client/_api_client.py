@@ -18,10 +18,8 @@ import re
 import tempfile
 from multiprocessing.pool import ThreadPool
 
-# python 2 and python 3 compatibility library
-import six
 import wildberries_api_client.products.models
-from six.moves.urllib.parse import quote
+from urllib.parse import quote
 from wildberries_api_client.products.configuration import Configuration
 
 from wildberries_api_client.products import rest
